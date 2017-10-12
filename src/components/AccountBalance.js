@@ -11,7 +11,7 @@ class AccountBalance extends Component {
 
     setTimeout(() => {
       this.setState({redirectToHome: true})
-    }, 1500)
+    }, 500)
   }
 
   render () {

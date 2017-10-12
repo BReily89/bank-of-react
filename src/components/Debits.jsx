@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import DebitsList from './DebitList'
+import AccountBalance from './AccountBalance'
 
-
-class Debit extends Component {
-    render() {
+var Debits = (props) => {
+    
         return (
             <div>
-                Debits
+                <p>Debits</p>
+                <Link to ='/'>Home</Link>
             </div>
         );
     }
-}
 
-export default Debit;
+export default Debits;

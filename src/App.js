@@ -28,7 +28,7 @@ getDebits = () => {
   })
 }
 getCredit = () => {
-  axios.get("http://localhost:4000/debits")
+  axios.get("http://localhost:4000/credit")
   .then((response) => {
     const debits = response.data
     this.setState({ debits: debits })
