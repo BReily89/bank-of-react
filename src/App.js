@@ -6,6 +6,7 @@ import AccountBalance from './components/AccountBalance'
 import axios from 'axios'
 import Debits from './components/Debits'
 import Credit from './components/Credit'
+import NewDebit from './components/NewDebit'
 
 class App extends Component {
   state = {

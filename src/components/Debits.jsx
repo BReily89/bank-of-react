@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import DebitsList from './DebitList'
+import DebitsList from './NewDebit'
 import AccountBalance from './AccountBalance'
 
 var Debits = (props) => {

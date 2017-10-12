@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Debits from './Debits'
 import Home from './Home'
 
-const DebitsList = (props) =>{
+const NewDebit = (props) =>{
     const debitDetails = props.debits.map((debits, index) => {
         return <Debits
         description={debits.description}
@@ -17,4 +17,4 @@ const DebitsList = (props) =>{
 };
 
 
-export default DebitsList
+export default NewDebit

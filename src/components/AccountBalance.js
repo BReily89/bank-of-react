@@ -24,6 +24,8 @@ class AccountBalance extends Component {
         <h1>Your balance is {this.props.accountBalance}</h1>
         <span> </span>
         <button onClick={this.saveSomething}>Redirect Button</button>
+        <br />
+        <br />
         <Link to="/">Home</Link>
       </div>
     )
